@@ -5,14 +5,14 @@ function Login() {
     return (
         <Container>
             <CTA>
-                <CTALogoOne src="/images/cta-logo-one.svg"/>
+                <CTALogoOne src="./images/cta-logo-one.svg"/>
                 <SignUpButton>
                     GET ALL THERE
                 </SignUpButton>
                 <Description>
                     Get Premier Access to Raya and the Last Dragon for an additional fee with a Disney+ subscription. As of 03/26/21, the price of Disney+ and The Disney Bundle will increase by $1.
                 </Description>
-                <CTALogoTwo src="/images/cta-logo-two.png"/>
+                <CTALogoTwo src="./images/cta-logo-two.png"/>
             </CTA>
         </Container>
     )
@@ -35,7 +35,7 @@ const Container = styled.div`
         top: 0;
         bottom: 0;
         background-color: rgba(0,0,0,0.7);
-        background: url("/images/login-background.jpg") top / cover no-repeat;
+        background: url("./images/login-background.jpg") top / cover no-repeat;
         z-index: -10;
     }
 `

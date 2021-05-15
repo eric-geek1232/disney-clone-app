@@ -39,7 +39,7 @@ const Container = styled.main`
 
     &:before {
         content: "";
-        background: url("/images/home-background.png") center center / cover no-repeat fixed;
+        background: url("./images/home-background.png") center center / cover no-repeat fixed;
         position: absolute;
         top: 0;
         right: 0;

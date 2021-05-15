@@ -8,61 +8,61 @@ function Viewer() {
         <Container>
             <Wrap onMouseOver={() => setVideo(1)}
                 onMouseOut={() => setVideo(0)}>
-                <img src="/images/viewers-disney.png" />
+                <img src="./images/viewers-disney.png" />
                 {(video==1) &&
                     <video
                         loop
                         autoPlay
                         muted
-                        src="/videos/1564674844-disney.mp4" >
+                        src="./videos/1564674844-disney.mp4" >
                     </video>
                 }
             </Wrap>
             <Wrap onMouseOver={() => setVideo(2)}
                 onMouseOut={() => setVideo(0)}>
-                <img src="/images/viewers-pixar.png" />
+                <img src="./images/viewers-pixar.png" />
                 {(video==2) &&
                     <video
                         loop
                         autoPlay
                         muted
-                        src="/videos/1564676714-pixar.mp4" >
+                        src="./videos/1564676714-pixar.mp4" >
                     </video>
                 }
             </Wrap>
             <Wrap onMouseOver={() => setVideo(3)}
                 onMouseOut={() => setVideo(0)}>
-                <img src="/images/viewers-marvel.png" />
+                <img src="./images/viewers-marvel.png" />
                 {(video==3) &&
                     <video
                         loop
                         autoPlay
                         muted
-                        src="/videos/1564676115-marvel.mp4" >
+                        src="./videos/1564676115-marvel.mp4" >
                     </video>
                 }
             </Wrap>
             <Wrap onMouseOver={() => setVideo(4)}
                 onMouseOut={() => setVideo(0)}>
-                <img src="/images/viewers-starwars.png" />
+                <img src="./images/viewers-starwars.png" />
                 {(video==4) &&
                     <video
                         loop
                         autoPlay
                         muted
-                        src="/videos/1608229455-star-wars.mp4" >
+                        src="./videos/1608229455-star-wars.mp4" >
                     </video>
                 }
             </Wrap>
             <Wrap onMouseOver={() => setVideo(5)}
                 onMouseOut={() => setVideo(0)}>
-                <img src="/images/viewers-national.png" />
+                <img src="./images/viewers-national.png" />
                 {(video==5) &&
                     <video
                         loop
                         autoPlay
                         muted
-                        src="/videos/1564676296-national-geographic.mp4" >
+                        src="./videos/1564676296-national-geographic.mp4" >
                     </video>
                 } 
             </Wrap>
